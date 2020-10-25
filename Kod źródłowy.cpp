@@ -190,6 +190,7 @@ srand(time(NULL));
     cout << "\nWitaj w programie, ktory pomoze ci dbac o zdrowie w domu!\n";
 
     cout << "Dostepne opcje to cwiczenia i dieta\n";
+    cout << "Menu nawiguje sie poprzez klawisze strzalki w gore i w dol, i enter" << '\n';
 
     cout << "\nAby kontynuowac nacisnij klawisz\n";
 
@@ -646,7 +647,7 @@ void diet (int ile_dni, float kalorie, vector<Product> produkty){
 
 }
 
-}
+
 vector<Product> diet_single (float kalorie, vector <Product> dish){
 
     vector<Product> produkt;
