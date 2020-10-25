@@ -415,8 +415,7 @@ srand(time(NULL));
             if( wybranaopcja == 1 ) cout << "--> Cwiczenia\n";
             else cout << "Cwiczenia\n";
 
-            if( wybranaopcja == 2 ) cout << "--> Dieta i cwiczenia\n";
-            else cout << "Dieta i cwiczenia\n";
+           
 
 
             opcja = getch();
@@ -433,7 +432,7 @@ srand(time(NULL));
 
             if( wybranaopcja < 0 ) wybranaopcja++ ;
 
-            if( wybranaopcja > 2 ) wybranaopcja-- ;
+            if( wybranaopcja > 1 ) wybranaopcja-- ;
 
         } while( wybranaopcja != 3 && opcja != 13 );
 
@@ -596,122 +595,7 @@ srand(time(NULL));
 
         }
 
-        if( wybranaopcja == 2 && opcja == 13 )
-        {
-            int intensywnosc=2*zmianawagi;
-            cout << "\nWybrano dieta i cwiczenia\n";
-
-           if (zmianawagi == 1)
-                {int typ_cwiczen=0;
-                       //Wybor typu cwiczen
-                        do {
-                            system( "cls" );
-                            cout <<"Wybierz typ cwiczen"<< '\n';
-                            if( typ_cwiczen == 0 ) cout << "--> Funkcyjne (wzmocnienie miesni bez ich rozbudowy)\n";
-                            else cout << "Funkcyjne (wzmocnienie miesni bez ich rozbudowy)\n";
-
-                            if( typ_cwiczen == 1 ) cout << "--> Cardio (zwiększenie wydolnosci serca i spalanie tluszczu)\n";
-                            else cout << "Cardio (zwiększenie wydolnosci serca i spalanie tluszczu)\n";
-
-                            if( typ_cwiczen == 2 ) cout << "--> Silowe (rozbudowa tkanki miesniowej)\n";
-                            else cout << "Silowe (rozbudowa tkanki miesniowej)\n";
-
-
-                            opcja = getch();
-
-                            switch( opcja )
-                            {
-                                case 72:
-                                typ_cwiczen--;
-                                break;
-                                case 80:
-                                typ_cwiczen++;
-                                break;
-                            }
-
-                            if( typ_cwiczen < 0 ) typ_cwiczen++ ;
-                            if( typ_cwiczen > 2 ) typ_cwiczen-- ;
-
-                        } while(typ_cwiczen != 3 && opcja != 13 );
-
-                        switch (typ_cwiczen){
-                            case 0: typ="funk"; break;
-                            case 1: typ = "cardio"; break;
-                            case 2: typ= "sil"; break;
-                        }
-                    cout << "Musisz spalic: " << 0.3*ppm << " kcal dziennie\n";
-                    cout << "Twoje zapotrzebowanie kaloryczne wynosi: " << 1.7*ppm << " kcal\n";
-                    cout << "Oto plan cwiczen i jadlospis:\n";
-        //cwiczenia i jedzenie
-                    vector<Cwiczenie> wybrane_cw;
-                    wybrane_cw= oblicz_cw(typ);
-                    vector<Product> dania;
-                    dania = oblicz_dieta();
-                    all (wybrane_cw, ile_dni, intensywnosc, (1.7*ppm), dania );
-                }
-
-             else if (zmianawagi == 2)
-                {
-                    int typ_cwiczen=1;
-                    //Wybor typu cwiczen
-                        do {
-                            system( "cls" );
-                            cout <<"Wybierz typ cwiczen" << '\n';
-
-                            if( typ_cwiczen == 1 ) cout << "--> Cardio (zwiekszenie wydolnosci serca i spalanie tluszczu)\n";
-                            else cout << "Cardio (zwiększenie wydolnosci serca i spalanie tluszczu)\n";
-
-                            if( typ_cwiczen == 2 ) cout << "--> Silowe (rozbudowa tkanki miesniowej)\n";
-                            else cout << "Silowe (rozbudowa tkanki miesniowej)\n";
-
-
-                            opcja = getch();
-
-                            switch( opcja )
-                            {
-                                case 72:
-                                typ_cwiczen--;
-                                break;
-                                case 80:
-                                typ_cwiczen++;
-                                break;
-                            }
-
-                            if( typ_cwiczen < 1 ) typ_cwiczen++ ;
-                            if( typ_cwiczen > 2 ) typ_cwiczen-- ;
-
-                        } while(typ_cwiczen != 3 && opcja != 13 );
-
-                        switch (typ_cwiczen){
-                            case 1: typ = "cardio"; break;
-                            case 2: typ= "sil"; break;
-                        }
-                    cout << "Musisz spalic: " << 0.4*ppm << " kcal dziennie\n";
-                    cout << "Twoje zapotrzebowanie kaloryczne wynosi: " << 1.6*ppm << " kcal\n";
-                    cout << "Oto plan cwiczen i jadlospis:\n";
-                    //cwiczenia i jedzenie
-                    vector<Cwiczenie> wybrane_cw;
-                    wybrane_cw= oblicz_cw(typ);
-                    vector<Product> dania;
-                    dania = oblicz_dieta();
-                    all (wybrane_cw, ile_dni, intensywnosc, (1.6*ppm), dania );
-                }
-
-             else if (zmianawagi == 3)
-                {
-                    typ ="cardio";
-
-                    cout << "Musisz spalic: " << 0.5*ppm << " kcal\n";
-                    cout << "Twoje zapotrzebowanie kaloryczne wynosi: " << 1.5*ppm << " kcal\n";
-                    cout << "Oto plan cwiczen i jadlospis:\n";
-                    //cwiczenia i jedzenie
-                    vector<Cwiczenie> wybrane_cw;
-                    wybrane_cw= oblicz_cw(typ);
-                    vector<Product> dania;
-                    dania = oblicz_dieta();
-                    all (wybrane_cw, ile_dni, intensywnosc, (1.5*ppm), dania );
-                }
-        }
+       
 
     return 0;
 }
@@ -725,10 +609,10 @@ srand(time(NULL));
 //CIALA FUNCKJI
 
 void exc (vector <Cwiczenie> wektor, int ile_dni, int intens){
-
+srand(time(NULL));
 for (int i=1; i<ile_dni; i++){
                 cout << "Dzien " << i << ":"<< '\n' << '\n';
-
+                
                 random_shuffle(wektor.begin(), wektor.end());
 
                 cout << "Zestaw cwiczen:" <<  '\n';
@@ -761,32 +645,7 @@ void diet (int ile_dni, float kalorie, vector<Product> produkty){
 
 
 }
-void all (vector <Cwiczenie> wektor, int ile_dni, int intens, float kalorie, vector<Product> produkty){
- vector <Product> jedzenie;
 
- srand(time(NULL));
-    for (int i=1; i<ile_dni; i++){
-                cout << "Dzien " << i << ":"<< '\n' << '\n';
-            random_shuffle(produkty.begin(), produkty.end());
-                jedzenie = diet_single(kalorie, produkty);
-                random_shuffle(wektor.begin(), wektor.end());
-                cout << "Jedzenie: " <<  '\n';
-                cout << "Sniadanie: " << jedzenie[0].name <<'\n';
-                cout << "Lunch (drugie sniadanie): " << jedzenie[1].name <<'\n';
-                cout << "Obiad: " << jedzenie[2].name <<'\n';
-                cout << "Kolacja: " << jedzenie[3].name<<'\n';
-
-                float czas=0;
-                cout << "Zestaw cwiczen:" <<  '\n';
-
-                for (int i =0; czas<2000 && i<wektor.size(); i++) //czas w sekundach, mniej wiecej pol godziny
-                    {
-                        wektor[i].show(intens);
-                        if (wektor[i].czas) czas+=(wektor[i].powtorzenia*4);
-                        else czas += (8*wektor[i].powtorzenia);
-                    }
-            cout  << "===============================" << '\n'<< '\n';
-        }
 }
 vector<Product> diet_single (float kalorie, vector <Product> dish){
 
@@ -816,8 +675,7 @@ vector<Product> diet_single (float kalorie, vector <Product> dish){
 
         }
        znalezione = false;
-       //cout << "tu?";
-       //cout << produkt[0].name;
+   
         if (ktory>dish.size()){
 
         cout << "nie udało się znaleść pasującego dania, dodaj więcej dań do pliku i spróbuj ponownie";
@@ -825,14 +683,6 @@ vector<Product> diet_single (float kalorie, vector <Product> dish){
         }
     }
 
-
-
-
-
-
-
-
- //I śniadanie stanowi 25–30%  II śniadanie – 10%, obiad – 40%, a kolacja – 20–25%
  return produkt;
 }
 
