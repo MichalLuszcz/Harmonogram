@@ -1,0 +1,300 @@
+﻿zupa mleczno-owocowa z musli
+600
+b
+kanapki z twarozkiem
+360
+b
+kanapki z twarozkiem
+360
+l
+kanapki z twarozkiem
+360
+s
+kurczak z warzywami i ryzem
+370
+d
+kurczak z warzywami i ziemniakami
+420
+d
+spaghetti
+750
+d
+salatka owocowa z jogurtem
+230
+l
+salatka owocowa z jogurtem
+230
+b
+kanapka z poledwica 
+270
+b
+kanapka z poledwica 
+270
+s
+kurczak z cukinia i papryka na makaronie ryzowym
+807
+d
+wolowina z suszonymi sliwkami i grillowanymi pomidorami
+727
+d
+wolowina z rodzynkami i daktylami na aromatycznej fasoli czerwonej z cieciorką
+896
+d
+smazone udko z kuczaka z warzywami na kaszy jaglanej
+858
+d
+salatka z zielonej soczewicy i dyni
+723
+s
+salatka z zielonej soczewicy i dyni
+723
+b
+salatka z zielonej soczewicy i dyni
+723
+l
+risotto (300g)
+354
+d
+risotto (300g)
+354
+s
+risotto (500g)
+590
+d
+risotto (100g)
+118
+b
+risotto (500g)
+590
+s
+salatka ziemniaczana (100g)
+143
+b
+salatka ziemniaczana (100g)
+143
+l
+salatka ziemniaczana (200g)
+286
+d
+salatka ziemniaczana (300g)
+429
+d
+salatka ziemniaczana (500g)
+715
+d
+Zupa z groszku zielonego (100ml)
+75
+d
+Zupa z groszku zielonego (300ml)
+225
+d
+Zupa z groszku zielonego (400ml)
+300
+d
+Zupa z groszku zielonego (500ml)
+375
+d
+Zupa z groszku zielonego (600ml)
+450
+d
+Zupa z groszku zielonego (700ml)
+525
+d
+Zupa z groszku zielonego (800ml)
+600
+d
+Zupa z groszku zielonego (300ml)
+225
+s
+Zupa z groszku zielonego (400ml)
+300
+s
+Zupa z groszku zielonego (500ml)
+375
+s
+Zupa z groszku zielonego (600ml)
+450
+s
+Zupa z groszku zielonego (700ml)
+525
+s
+Zupa z groszku zielonego (800ml)
+600
+s
+Hummus (100g)
+177
+b
+Hummus (200g)
+354
+b
+Hummus (300g)
+531
+b
+Hummus (100g)
+177
+l
+Hummus (200g)
+354
+l
+Hummus (300g)
+531
+l
+Hummus (100g)
+177
+s
+Hummus (200g)
+354
+s
+Hummus (300g)
+531
+s
+Zupa jarzynowa(250g)
+110
+d
+Zupa jarzynowa(250g)
+110
+s
+Zupa jarzynowa(500g)
+220
+d
+Zupa jarzynowa(500g)
+220
+s
+Filety z dorsza po grecku(200g)
+308
+d
+Filety z dorsza po grecku(400g)
+600
+d
+Filety z dorsza smażone, panierowane (125g)
+343
+d
+Filety z dorsza smażone, panierowane (250g)
+700
+d
+Płatki z mlekiem(100g)
+246
+b
+Płatki z mlekiem(200g)
+500
+b
+jajko na twardo
+84
+b
+2 jajka na twardo
+160
+b
+3 jajka na twardo
+240
+b
+barszcz czerwony
+16
+d
+banan
+70
+l
+banan
+70
+b
+batonik zbozowy
+448
+l
+jablko
+461
+b
+kasza manna
+348
+l
+kasza manna
+348
+s
+parowka z keczupem
+322
+b
+parowka z keczupem
+322
+s
+kanapka z dzemem
+421
+b
+kanapka z dzemem
+421
+s
+kanapka z dzemem
+421
+l
+kanapka z serem i szynka 
+654
+s
+kanapka z serem i z szynka
+654
+b
+kanapka z jajkiem
+341
+b
+kanapka z jajkiem 
+341
+l
+kanapka z jajkiem
+341
+s
+maslanka z dzemem
+190
+b
+maslanka z dzemem
+190
+l
+maslanka z dzemem
+190
+s
+kanapka z miodem
+581
+s
+kanapka z miodem
+581
+l
+kanapka z miodem
+581
+b
+Barszcz ukrainski(100g)
+56
+d 
+Barszcz ukrainski(250g)
+140
+d 
+Zupa grochowa(100g)
+65
+d
+Zupa grochowa(250g)
+163
+d
+Zupa ogorkowa(100g)
+42
+d
+Zupa ogorkowa(250g)
+105
+d
+Kotlet schabowy panierowany(100g)
+353
+d
+Kotlet schabowy panierowany(250g)
+530
+d
+Pieczen wieprzowa(100g)
+276
+d
+Pieczen wieprzowa(250g)
+331
+d
+Taco(100g)
+217
+b
+Taco(100g)
+217
+l
+Taco(100g)
+217
+s
+Golabki(100g)
+108
+d

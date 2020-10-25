@@ -1,0 +1,200 @@
+﻿podnoszenie ciezarow 
+sil
+15
+nie
+podnoszenie ciezarow 
+sil
+10
+nie	
+podnoszenie ciezarow 
+sil
+3
+nie
+przysiady ze sztanga 
+sil
+15
+nie
+przysiady ze sztanga  
+sil
+10
+nie
+przysiady ze sztanga 
+sil
+5
+nie
+podciaganie na drazku
+sil
+10
+nie
+podciaganie na drazku
+sil
+5
+nie
+podciaganie na drazku
+sil
+3
+nie
+martwy ciag
+sil
+10
+nie
+martwy ciag 
+sil
+5
+nie
+pompki
+sil
+20
+nie
+pompki
+sil
+10
+nie	
+pompki
+sil
+5
+nie
+bieganie
+cardio
+360
+tak
+bieganie
+cardio
+300
+tak
+jazda na rowerze
+cardio
+420
+tak
+jazda na rowerze
+cardio
+420
+tak
+skakanie na skakance
+cardio
+30
+nie
+skakanie na skakance
+cardio
+30
+nie
+skakanie na skakance
+cardio
+20
+nie
+cwiczenia na orbitreku/stepperze
+cardio
+300
+tak
+cwiczenia na orbitreku/stepperze
+cardio
+240
+tak
+wchodzenie po schodach z hantlami
+funk
+180
+tak
+wchodzenie po schodach z hantlami
+funk
+120
+tak
+wchodzenie po schodach z hantlami
+funk
+180
+tak
+wbieganie po schodach i szybkie schodzenie
+funk
+120
+tak
+wbieganie po schodach i szybkie schodzenie
+funk
+60
+tak
+wbieganie po schodach i szybkie schodzenie
+funk
+120
+tak
+przysiady z pilka lekarska (lub innym ciezkim przedmiotem)
+funk
+20
+nie
+przysiady z pilka lekarska (lub innym ciezkim przedmiotem)
+funk
+15
+nie
+skrety tulowia z przenoszeniem pilki lekarskiej (lub innego ciezkiego przedmiotu)
+funk
+20
+nie
+skrety tulowia z przenoszeniem pilki lekarskiej (lub innego ciezkiego przedmiotu)
+funk
+15
+nie
+skrety tulowia z przenoszeniem pilki lekarskiej (lub innego ciezkiego przedmiotu)
+funk
+10
+nie
+unoszenie hantli ze wznoszeniem kolan
+funk
+20
+nie
+unoszenie hantli ze wznoszeniem kolan
+funk
+15
+nie
+unoszenie hantli ze wznoszeniem kolan
+funk
+10
+nie
+przechodzenie z klęku do przysiadu
+cardio
+40
+tak
+pompki
+funk
+10
+nie
+przysiad z rekoma za glowa, wyprost i zblizenie lokci do kolan
+cardio
+60
+tak
+pompki
+funk
+10
+nie
+stanie na palcach z wyprostowana sylwetka
+cardio
+30
+tak
+stanie na palcach z wyprostowana sylwetka
+funk
+30
+tak
+brzuszki
+sil
+15
+nie
+brzuszki
+funk
+10
+nie
+brzuszki
+funk
+10
+nie
+nozyce (przeplatanie nog w powietrzu podczas lezenia na plecach)
+funk
+30
+tak
+nozyce (przeplatanie nog w powietrzu podczas lezenia na plecach)
+funk
+20
+tak
+bieg w miejscu (skip A)
+funk
+40
+tak
+bieg w miejscu (skip B)
+funk
+40
+tak
